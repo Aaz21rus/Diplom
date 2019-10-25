@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Дипломный проект</title>
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+	</head>
+	<body class="body">
+		<div class="form-container">
+			<form class="form">
+				<h3 class="form__h3">Форма заявки</h3>
+				<input type="text" name="name" placeholder="Имя" class="form__input form__name">
+				<input type="text" name="phone" placeholder="Телефон" class="form__input form__phone">
+				<input class="form__recall-project-order" type="submit" value="Заказать проект" disabled="disabled">
+				<p class="form__terms">
+					<input class="form__agreement" id="agreement" type="checkbox">
+					<label class="form__label" for="agreement">Я согласен с условиями обработки персональных данных</label>
+				</p>			
+			</form>
+		</div>
+		<header class="header header_gray">
+			<div class="center header-center"> 
+				<button aria-label="menu-open" class="header__toggle-menu">  
+				</button>
+				<nav class="header__menu menu">
+					<ul class="menu__list">
+						<li><a class="menu__info" href="">Услуги</a></li>
+						<li><a class="menu__info" href="">Портофолио</a></li>
+						<li><a class="menu__info" href="">Стоимость</a></li>
+					</ul>
+				</nav>
+				<p class="header__contacts">
+					<a class="header__phone" href="tel:+74999955577">+7 (499) 995-55-77</a>
+					<button class="header__call">Заказать звонок</button>
+				</p>				
+			</div>		
+		</header>
+		<main class="main">
+			<section class="section section_gray">
+				<div class="center section-intro">
+					<div aria-hidden="true" class="section-intro__decor section-intro__decor1">{ }</div> 
+					<div aria-hidden="true" class="section-intro__decor section-intro__decor2">#</div>
+					<div aria-hidden="true" class="section-intro__decor section-intro__decor3">&lt;/&gt;</div>
+					<div aria-hidden="true" class="section-intro__decor section-intro__decor4">&lt;div&gt;</div>
+					<div aria-hidden="true" class="section-intro__decor section-intro__decor5">&lt;div&gt;</div>
+					<div aria-hidden="true" class="section-intro__decor section-intro__decor6">&lt;/&gt;</div>
+					<div class="intro">
+						<div class="intro__title">
+							<h1 class="intro__name">Краснов Дмитрий</h1>
+							<span class="intro__prof">Frontend-разработчик и веб-верстальщик</span>
+							<button class="intro__button order-call">Узнать больше</button>
+						</div>
+						<picture class="intro__elips">
+							<source srcset="img/Elips_320.png" media="(max-width: 1036px)">	
+							<source srcset="img/Elips_1024.png" media="(max-width: 1440px)">
+							<img src="img/Elips.png" alt="Elips" class="intro__img">
+						</picture>
+						<img class="intro__photo" src="img/Photo.png" alt="Photo">
+					</div>
+				</div>
+			</section>
+			<section class="section center section__skills skills">
+				<h2 class="heading skills__heading">Что я делаю</h2>
+				<ul class="skills__list">
+					<li class="skills__item skills__item--tools">
+						Вёрстка лендинг–страниц<br>и сайтов любой сложности
+					</li>
+					<li class="skills__item skills__item--responsive">
+						Адаптивная вёрстка под все<br>браузеры и устройства
+					</li>
+					<li class="skills__item skills__item--programming">
+						Frontend–разработка<br>и программирование
+					</li>
+					<li class="skills__item skills__item--coding">
+						Исправление и доработка<br>существующей вёрстки
+					</li>
+				</ul>
+				<button class="skills__button order-call">Узнать стоимость</button>
+			</section>
+			<section class="section section_gray">
+				<div class="center examples">
+					<h2 class="heading examples__heading">Примеры моих работ</h2>
+					<div class="examples__gallery">
+						<ul class="examples__list">
+							<li>
+								<a class="examples__item" href="#">
+									<picture class="examples__picture">
+										<source srcset="img/Layer1-320.png" media="(max-width: 1036px)">	
+										<img src="img/Layer1.png" alt="l1" class="examples__layer">		
+									</picture>
+									Сайт психолога Веры Антоновой
+								</a>
+							</li>
+							<li>
+								<a class="examples__item" href="#">
+									<picture class="examples__picture">
+										<source srcset="img/Layer2-320.png" media="(max-width: 1036px)">
+										<img src="img/Layer2.png" alt="l2" class="examples__layer">		
+									</picture>
+									Сайт магазина детской одежды
+								</a>
+							</li>
+							<li>
+								<a class="examples__item" href="#">
+									<picture class="examples__picture">
+										<source srcset="img/Layer3-320.png" media="(max-width: 1036px)">
+										<img src="img/Layer3.png" alt="l3" class="examples__layer">		
+									</picture>
+									Сайт магазина «Рыболов»
+								</a>
+							</li>	
+						</ul>
+						<button class="examples__button-arrow examples__button-arrow-origin"></button>
+						<button class="examples__button-arrow examples__button-arrow--reverse"></button>
+					</div>
+					<div class="examples__points">
+						<button area-label="switch" class="examples__point"></button>
+						<button area-label="switch" class="examples__point"></button>
+						<button area-label="switch" class="examples__point"></button>
+					</div>
+					<button class="examples__button order-call">Заказать проект</button>
+				</div>
+			</section>
+			<section class="section section__gradient">
+				<div class="center section__rate rate">
+					<div class="rate__text">
+						<p class="rate__title">Адаптивная вёрстка под все устройства и браузеры от 1000 рублей всего за 4 часа.*</p>
+						<p class="rate__info">
+							Срок и стоимость могут отличаться от заявленных и рассчитываются  индивидуально, в зависимости от сложности задач.
+						</p>
+						<div aria-hidden="true" class="rate__decor rate__decor1">{ }</div>
+						<div aria-hidden="true" class="rate__decor rate__decor2">#</div>
+						<div aria-hidden="true" class="rate__decor rate__decor3">&lt;/&gt;</div>
+						<div aria-hidden="true" class="rate__decor rate__decor4">&lt;div&gt;</div>
+						<div aria-hidden="true" class="rate__decor rate__decor5">{ }</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<script src="script/jquery-3.4.1.min.js"></script>
+		<script src="script/script.js"></script>
+	</body>
+</html>
