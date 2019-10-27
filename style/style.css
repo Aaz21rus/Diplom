@@ -673,7 +673,7 @@ html, body {
 	flex-direction: column;
 }
 
-.footer__conact {
+.footer__contact {
 	font-family: Roboto;
 	font-size: 25px;
 	line-height: 25px;
@@ -682,18 +682,14 @@ html, body {
 	background-position-x: left;
 	background-position-y: center;
 	background-repeat: no-repeat;
-	margin-bottom: 35px;
 }
 
-.footer__conact:last-child {
-	margin-bottom: 0;
+.footer__contact--phone {
+	background-image: url(../img/call-answer_f.png);
+	margin-bottom: 35px;	
 }
 
-.footer__conact--phone {
-	background-image: url(../img/call-answer_f.png);	
-}
-
-.footer__conact--email {
+.footer__contact--email {
 	background-image: url(../img/envelope.png);
 }
 
@@ -712,10 +708,6 @@ html, body {
 	background-repeat: no-repeat;
 	margin-right: 30px;
 }
-
-/*.footer__socil-item:last-child {
-	margin-right: 0;
-}*/
 
 .footer__vk {
 	width: 35px;
@@ -744,12 +736,8 @@ html, body {
 
 .footer__rights {
 	padding: 35px 0;
-	display: flex;
-	justify-content: center;
 	background-color: #31293c;
-}
-
-.footer__owner {
+	text-align: center;
 	color: #ffffff;
 	font-family: Roboto;
 	font-size: 16px;
@@ -1203,11 +1191,14 @@ html, body {
 
 .footer__contacts {
 	margin-bottom: 23px;
+}
+
+.footer__contact {
 	font-size: 20px;
 	line-height: 20px;
 }
 
-.footer__phone {
+.footer__contact--phone {
 	margin-bottom: 26px;
 }
 
