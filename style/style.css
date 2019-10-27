@@ -671,28 +671,30 @@ html, body {
 .footer__contacts {
 	display: flex;
 	flex-direction: column;
+}
+
+.footer__conact {
 	font-family: Roboto;
 	font-size: 25px;
 	line-height: 25px;
-}
-
-.footer__phone {
 	color: #000000;
+	padding-left: 38px;
+	background-position-x: left;
+	background-position-y: center;
+	background-repeat: no-repeat;
 	margin-bottom: 35px;
-	padding-left: 38px;
-	background-image: url(../img/call-answer_f.png);
-	background-position-x: left;
-	background-position-y: center;
-	background-repeat: no-repeat;
 }
 
-.footer__email {
-	color: #000000;
-	padding-left: 38px;
+.footer__conact:last-child {
+	margin-bottom: 0;
+}
+
+.footer__conact--phone {
+	background-image: url(../img/call-answer_f.png);	
+}
+
+.footer__conact--email {
 	background-image: url(../img/envelope.png);
-	background-position-x: left;
-	background-position-y: center;
-	background-repeat: no-repeat;
 }
 
 .footer__call {
