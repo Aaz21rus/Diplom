@@ -654,11 +654,14 @@ html, body {
 }
 
 .footer__info {
-	color: #8993ad;
 	font-family: Roboto;
 	font-size: 18px;
 	line-height: 18px;
 	margin-bottom: 15px;
+}
+
+.footer__info a {
+	color: #8993ad;
 }
 
 .footer__info:last-child {
@@ -708,9 +711,9 @@ html, body {
 	margin-right: 30px;
 }
 
-.footer__socil-item:last-child {
+/*.footer__socil-item:last-child {
 	margin-right: 0;
-}
+}*/
 
 .footer__vk {
 	width: 35px;
