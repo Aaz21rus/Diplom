@@ -674,6 +674,7 @@ html, body {
 }
 
 .footer__contact {
+	display: block;
 	font-family: Roboto;
 	font-size: 25px;
 	line-height: 25px;
@@ -709,26 +710,26 @@ html, body {
 	margin-right: 30px;
 }
 
-.footer__vk {
+.footer__socil-item--vk {
 	width: 35px;
 	height: 21px;
 	background-position: -140px -10px;
 }
 
-.footer__facebook {
+.footer__socil-item--facebook {
 	width: 16px;
 	height: 28px;
 	background-position: -10px -10px;
 }
 
-.footer__twitter {
+.footer__socil-item--twitter {
 	width: 29px;
 	height: 25px;
 	background-position: -91px -10px;
 
 }
 
-.footer__instagram {
+.footer__socil-item--instagram {
 	width: 25px;
 	height: 25px;
 	background-position: -46px -10px;
