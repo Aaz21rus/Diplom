@@ -703,11 +703,14 @@ html, body {
 	align-items: flex-end;
 }
 
+.footer__social-unit:not(:last-child) {
+	margin-right: 30px;
+}
+
 .footer__socil-item {
 	display: block;
 	background-image: url('../img/css_sprites.png');
 	background-repeat: no-repeat;
-	margin-right: 30px;
 }
 
 .footer__socil-item--vk {
