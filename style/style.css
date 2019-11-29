@@ -575,11 +575,12 @@ html, body {
 
 .section__rate {
 	padding: 88px 0;
+	width: 943px;
+    margin: 0 auto;
 }
 
 .rate__text {
-	width: 943px;
-    margin: 0 auto;
+	
 }
 
 .rate__title {
@@ -1149,11 +1150,13 @@ html, body {
 	margin: 0 20px;
 }
 
-.rate__text {
-	width: 274px;
+.section__rate {
+	width: 280px;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 50px;
 	padding-bottom: 50px;
+	padding-left: 20px;
+    padding-right: 20px;
 }
 
 .rate__title {
