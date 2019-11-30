@@ -38,9 +38,28 @@ $(function(){
 		direction: 'horizontal',
 		slidesPerView: 3,
 		loop: true,
-		setWrapperSize: true,
-		roundLengths: true,
-		spaceBetween: 27
+		spaceBetween: 27,
+
+		navigation: {
+			nextEl: '.examples__button-arrow-origin',
+			prevEl: '.examples__button-arrow--reverse',
+		},
+
+		breakpoints: {
+            1440: {
+                slidesPerView: 3
+            },
+
+            1036: {
+				slidesPerView: 2,
+				spaceBetween: 34
+            },
+
+            320: {
+				slidesPerView: 1,
+				spaceBetween: 0
+			}
+		}
 	});
 });
 
