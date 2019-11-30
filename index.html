@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Дипломный проект</title>
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/swiper.min.css">
 	</head>
 	<body class="body">
 		<div class="form-container">
@@ -81,9 +82,9 @@
 			<section class="section section_gray">
 				<div id="examples" class="center examples">
 					<h2 class="heading examples__heading">Примеры моих работ</h2>
-					<div class="examples__gallery">
-						<ul class="examples__list">
-							<li>
+					<div class="examples__gallery swiper-container">
+						<ul class="examples__list swiper-wrapper">
+							<li class="swiper-slide examples__unit">
 								<a class="examples__item" href="#">
 									<picture class="examples__picture">
 										<source srcset="img/Layer1-320.png" media="(max-width: 1036px)">	
@@ -92,7 +93,7 @@
 									Сайт психолога Веры Антоновой
 								</a>
 							</li>
-							<li>
+							<li class="swiper-slide examples__unit">
 								<a class="examples__item" href="#">
 									<picture class="examples__picture">
 										<source srcset="img/Layer2-320.png" media="(max-width: 1036px)">
@@ -101,7 +102,7 @@
 									Сайт магазина детской одежды
 								</a>
 							</li>
-							<li>
+							<li class="swiper-slide examples__unit">
 								<a class="examples__item" href="#">
 									<picture class="examples__picture">
 										<source srcset="img/Layer3-320.png" media="(max-width: 1036px)">
@@ -109,11 +110,11 @@
 									</picture>
 									Сайт магазина «Рыболов»
 								</a>
-							</li>	
+							</li>		
 						</ul>
-						<button class="examples__button-arrow examples__button-arrow-origin"></button>
-						<button class="examples__button-arrow examples__button-arrow--reverse"></button>
 					</div>
+					<button class="examples__button-arrow examples__button-arrow-origin"></button>
+					<button class="examples__button-arrow examples__button-arrow--reverse"></button>
 					<div class="examples__points">
 						<button aria-label="switch" class="examples__point"></button>
 						<button aria-label="switch" class="examples__point"></button>
@@ -167,6 +168,7 @@
 			</div>
 			<p class="footer__rights">© Дмитрий Краснов, 2016 – 2019</p>
 		</footer>
+		<script src="script/swiper.min.js"></script>
 		<script src="script/jquery-3.4.1.min.js"></script>
 		<script src="script/script.js"></script>
 	</body>

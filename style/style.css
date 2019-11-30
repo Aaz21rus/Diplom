@@ -501,6 +501,11 @@ html, body {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 95px;
+	/* width: 1170px; */
+}
+
+.examples__unit {
+	
 }
 
 .examples__item {
@@ -862,7 +867,7 @@ html, body {
 }
 
 .examples__list li:nth-child(3) {
-	display: none;
+	/* display: none; */
 }
 
 .examples__item {
@@ -1125,7 +1130,7 @@ html, body {
 }
 
 .examples__list li:nth-child(1) {
-	display: none;
+	/* display: none; */
 }
 
 .examples__layer {

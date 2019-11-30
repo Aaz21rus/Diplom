@@ -33,4 +33,25 @@ $(function(){
 			$('.form-container').css('display', 'none');
 		}
 	});
+
+	var mySwiper = new Swiper ('.swiper-container', {
+		direction: 'horizontal',
+		slidesPerView: 3,
+		loop: true,
+		setWrapperSize: true,
+		roundLengths: true,
+		spaceBetween: 27
+	});
 });
+
+
+// const mySiema = new Siema({
+// 	perPage: 3,
+// 	loop: true,
+// 	// perPage: {
+// 	// 	1440: 3,
+// 	// 	1036: 2,
+// 	// },
+// });
+// document.querySelector('.examples__button-arrow-origin').addEventListener('click', () => mySiema.prev());
+// document.querySelector('.examples__button-arrow--reverse').addEventListener('click', () => mySiema.next());
