@@ -45,6 +45,14 @@ $(function(){
 			prevEl: '.examples__button-arrow--reverse',
 		},
 
+		pagination: {
+			el: '.examples__points',
+			clickable: true,
+        	renderBullet: function (index, className) {
+          		return '<span class="' + className + '">' + '</span>';
+        	},
+		},
+
 		breakpoints: {
             1440: {
                 slidesPerView: 3
